@@ -1,5 +1,5 @@
 (eval-when-compile    (require 'color-theme))
-(defun golden-braid-color-theme ()
+(defun color-theme-golden-braid ()
   "Color theme by Thomas Schilling, created 2008-08-09."
   (interactive)
   (color-theme-install
@@ -1136,4 +1136,4 @@
      (xxml-unbreakable-space-face ((t (:foreground "grey" :underline t))))
      (yellow ((t (:foreground "yellow"))))
      (zmacs-region ((t (:background "grey30")))))))
-(add-to-list 'color-themes '(golden-braid-color-theme  "Golden Braid" "Thomas Schilling"))
+(add-to-list 'color-themes '(color-theme-golden-braid  "Golden Braid" "Thomas Schilling"))
